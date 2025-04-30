@@ -17,12 +17,10 @@ https://github.com/user-attachments/assets/61521ce0-87df-4521-802d-9a70380bc260
 ![image](https://github.com/user-attachments/assets/557b3230-8d07-49f2-a7fa-97c3c64ab762)
 
 * AI Builder に接続される 2 種類のモデル：
-    * プロンプトの提案モデル（ユーザー入力に応じた質問生成）
-![image](https://github.com/user-attachments/assets/546f58f0-85f2-4597-9faf-3a841d21388d)
-
     * 回答案の生成モデル（ユーザーの質問に対する回答生成）
 ![image](https://github.com/user-attachments/assets/e3eb01f9-f5a0-4bc9-99bf-760fb4b817c4)
-
+    * プロンプトの提案モデル（ユーザー入力に応じた質問生成）
+![image](https://github.com/user-attachments/assets/546f58f0-85f2-4597-9faf-3a841d21388d)
 * Chat テーブル は 会話履歴の保存 に使用される
 * カスタムページには、 [MarkDown Viewer コントロール](https://github.com/megel/PCF-MarkDownViewer)が利用されている。 Markdown を美しく表示することができる 外部 PCFソリューションである
  
