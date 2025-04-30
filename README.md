@@ -9,7 +9,8 @@ Power Apps モデル駆動型アプリで動作する Chat UI のカスタムペ
 
 https://github.com/user-attachments/assets/61521ce0-87df-4521-802d-9a70380bc260
 
-## 機能
+## 構成
+
 以下の構成要素が含まれています。
 
 * Power Apps モデル駆動型アプリ: アプリ UI を提供。
@@ -64,9 +65,59 @@ AI Builder を用いることで、アプリに以下の 2 種類の生成 AI �
 これらの AI モデルは、Power Apps から呼び出され、生成されたプロンプトや回答は Dataverse の AI Chat テーブルに保存され、ユーザーに提示されます。
 
 
-以下は、**Power Apps モデル駆動型アプリ**を使用するための**前提条件**および**インポート方法**のうち、「環境での PCF（Power Apps Component Framework）の有効化」が含まれた最新の記述です。
+## 機能
 
----
+### 多言語
+15言語に対応しています。現在対応している言語は以下の15言語です。切り替えるとチャットだけでなくアプリの表示言語も切り替えることができます。
+
+![image](https://github.com/user-attachments/assets/66f1b0c3-e93e-4ab7-ad4d-a878ad11d46d)
+
+> [!Note]
+> モデル駆動型アプリについてはご自身でローカライズラベルを追加する必要があります。
+
+### 会話の履歴
+
+会話の履歴を保存することができます。
+
+![image](https://github.com/user-attachments/assets/028788d0-d153-4333-bc65-e54b205359b9)
+
+履歴は自動的に保存されます。保存内容はモデル駆動型アプリでも見ることができます。
+
+![image](https://github.com/user-attachments/assets/166ac98e-1863-4af6-957a-03e83ef6d63d)
+
+### プロンプトの提案
+
+会話の内容に基づいて次質問する際に利用できるプロンプトを提案してくれます。
+
+![image](https://github.com/user-attachments/assets/afb563dc-e2a7-4f12-bcd1-063224e77f53)
+
+### プロンプト入力領域の拡大
+
+入力領域を拡大することができます。
+
+![image](https://github.com/user-attachments/assets/5433ba49-dd51-4d17-9b4a-0dad3f306a69)
+
+### コピー機能
+
+出力結果や入力したプロンプトをコピーすることができます。クリップボードへのコピーと同時にプロンプト欄にも入力されます。
+
+![image](https://github.com/user-attachments/assets/f7590159-bddb-4c76-87c7-05b9d214076e)
+
+コードが生成された場合には、そのコード部分のみコピーする機能も提供されています。
+
+![image](https://github.com/user-attachments/assets/4517e6e6-516e-4b29-9f11-641d1df3697a)
+
+
+### 拡大機能
+
+指定したチャットのみを拡大する機能があります。
+
+![image](https://github.com/user-attachments/assets/d2c697bb-c55a-4de9-acad-0a785a24e60d)
+
+テキストが多くて見づらいときに、画面いっぱいの表示領域を利用して表示することができます。
+
+![image](https://github.com/user-attachments/assets/88b80083-544b-48cc-a51e-9a3050892010)
+
 
 ## 前提条件
 
@@ -83,7 +134,7 @@ AI Builder を用いることで、アプリに以下の 2 種類の生成 AI �
      - Power Platform 管理センターで「機能設定」から `Power Apps component framework` をオンにする必要があります。
 
 
----
+
 
 ## インポート方法
 
