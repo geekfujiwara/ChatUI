@@ -17,6 +17,7 @@ https://github.com/user-attachments/assets/61521ce0-87df-4521-802d-9a70380bc260
     * プロンプトの提案モデル（ユーザー入力に応じた質問生成）
     * 回答案の生成モデル（ユーザーの質問に対する回答生成）
 * Chat テーブル は 会話履歴の保存 に使用される
+* カスタムページには、 [MarkDown Viewer コントロール](https://github.com/megel/PCF-MarkDownViewer)が利用されている。 Markdown を美しく表示することができる 外部 PCFソリューションである
  
 ```mermaid
 graph TD
