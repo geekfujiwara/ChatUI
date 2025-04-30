@@ -94,7 +94,7 @@ AI Builder を用いることで、アプリに以下の 2 種類の生成 AI �
    - [マークダウンを表示するPCFコンポーネントをダウンロード](https://github.com/megel/PCF-MarkDownViewer/releases/download/v1.5.0/Mark_Down_Viewer_managed_1.5.zip)します。
 
 3. **ソリューションのインポート**
-   - Power Apps ポータル（https://make.powerapps.com）にアクセス。
+   - [Power Apps ポータル](https://make.powerapps.com)にアクセス。
    - 対象の環境を選択し、「ソリューション」 > 「インポート」から 先にマークダウンのソリューションの `.zip` ファイルをアップロードしてインポートします。
    - インポートが完了したら、続けて本ソリューションをインポートします。
 
